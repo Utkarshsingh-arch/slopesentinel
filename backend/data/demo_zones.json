@@ -1,0 +1,119 @@
+{
+  "type": "FeatureCollection",
+  "provenance": "ILLUSTRATIVE_DEMO_DATA",
+  "disclaimer": "Illustrative demonstration area only. Not official Geological Survey of India (GSI) hazard boundaries.",
+  "zones": [
+    {
+      "zone_id": "zone_east_ridge",
+      "zone_name": "East Ridge Corridor (Enchey Sector)",
+      "description": "Steep eastern flank with structural schist/gneiss bedding, flanking the upper city ring road and settlement spurs.",
+      "centroid": [27.3430, 88.6200],
+      "sensor_node_id": "NODE-GKT-01",
+      "baseline_susceptibility": 65.0,
+      "exposure_score": 72.0,
+      "exposed_assets": [
+        "Upper Gangtok Ring Road Spur",
+        "Enchey Residential Cluster",
+        "Municipal Water Transmission Pipe"
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.6140, 27.3380],
+            [88.6260, 27.3390],
+            [88.6250, 27.3475],
+            [88.6155, 27.3465],
+            [88.6140, 27.3380]
+          ]
+        ]
+      }
+    },
+    {
+      "zone_id": "zone_ranipool_catchment",
+      "zone_name": "Ranipool Flank (Highway Sector)",
+      "description": "Toe-eroded colluvial slope directly adjoining the NH-10 arterial transport spine and Ranipool commercial junction.",
+      "centroid": [27.3160, 88.5925],
+      "sensor_node_id": "NODE-GKT-02",
+      "baseline_susceptibility": 78.0,
+      "exposure_score": 88.0,
+      "exposed_assets": [
+        "NH-10 State Lifeline Arterial",
+        "Ranipool River Crossing Bridge",
+        "Emergency Freight & Fuel Depot"
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.5860, 27.3100],
+            [88.5990, 27.3115],
+            [88.5975, 27.3210],
+            [88.5870, 27.3195],
+            [88.5860, 27.3100]
+          ]
+        ]
+      }
+    },
+    {
+      "zone_id": "zone_tathangchen_slope",
+      "zone_name": "Tathangchen Upper Basin",
+      "description": "Terraced mid-elevation catchment with moderate vegetative cover and dispersed rural/residential holdings.",
+      "centroid": [27.3540, 88.6115],
+      "sensor_node_id": "NODE-GKT-03",
+      "baseline_susceptibility": 52.0,
+      "exposure_score": 45.0,
+      "exposed_assets": [
+        "Local Feeder Road L-04",
+        "Tathangchen Ward Community Hall",
+        "Terraced Drainage Culvert"
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [88.6050, 27.3485],
+            [88.6180, 27.3495],
+            [88.6165, 27.3590],
+            [88.6060, 27.3580],
+            [88.6050, 27.3485]
+          ]
+        ]
+      }
+    }
+  ],
+  "illustrative_assets": [
+    {
+      "asset_id": "asset_nh10_transit_corridor",
+      "name": "NH-10 Critical Transit Spine",
+      "category": "road_corridor",
+      "description": "Primary multi-modal highway connecting Gangtok to Siliguri railhead and southern supply depots.",
+      "exposure_rating": 92,
+      "coordinates": [88.5930, 27.3155]
+    },
+    {
+      "asset_id": "asset_ranipool_arterial_bridge",
+      "name": "Ranipool Highway Crossing",
+      "category": "critical_facility",
+      "description": "Concrete girder bridge crossing the Ranipool stream carrying municipal fiber and heavy traffic.",
+      "exposure_rating": 95,
+      "coordinates": [88.5910, 27.3130]
+    },
+    {
+      "asset_id": "asset_enchey_monastery_spur",
+      "name": "Enchey Settlement Arterial",
+      "category": "settlement",
+      "description": "Dense hilltop residential neighborhood with heritage cultural structures and feeder roads.",
+      "exposure_rating": 68,
+      "coordinates": [88.6210, 27.3420]
+    },
+    {
+      "asset_id": "asset_tathangchen_primary_facility",
+      "name": "Tathangchen Sector Facility",
+      "category": "settlement",
+      "description": "Community primary center and local distribution hub.",
+      "exposure_rating": 42,
+      "coordinates": [88.6100, 27.3530]
+    }
+  ]
+}
